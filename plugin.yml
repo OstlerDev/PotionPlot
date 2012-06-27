@@ -1,0 +1,19 @@
+author: OstlerDev
+database: false
+description: This allows a plot to be created when a potion is thrown on the ground.
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: me.ostlerdev.plugins.potionplot.Potionplot
+name: FinalProtect
+startup: postworld
+depend: [WorldEdit, WorldGuard]
+url: http://joshostler.me/
+version: 1.0
+permissions:
+  FinalProtect.use.10:
+    default: true
+  FinalProtect.use.20:
+    default: true
+  FinalProtect.use.30:
+    default: true
+  FinalProtect.use.40:
+    default: true
